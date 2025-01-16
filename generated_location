@@ -1,0 +1,25 @@
+{
+    "name": "El Paso International Airport",
+    "address": "6701 Convair Rd",
+    "city": "El Paso",
+    "state": "TX",
+    "zip": "79925",
+    "x-coordinate": 31.8072,
+    "y-coordinate": -106.3778
+}{
+    "name": "Cielo Vista Mall",
+    "address": "8401 Gateway Blvd W",
+    "city": "El Paso",
+    "state": "TX",
+    "zip": "79925",
+    "x-coordinate": 31.7595,
+    "y-coordinate": -106.3769
+}{
+    "name": "Bassett Place",
+    "address": "6101 Gateway Blvd W",
+    "city": "El Paso",
+    "state": "TX",
+    "zip": "79925",
+    "x-coordinate": 31.7932,
+    "y-coordinate": -106.3965
+}

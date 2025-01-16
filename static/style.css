@@ -1,3 +1,72 @@
-body {
-    background-color: antiquewhite;
+html, body {
+    height: 100%; /* Ensure the root and body fill the viewport */
+    margin: 0;
+    background-color: #212121;
+}
+
+#cont {
+    display: flex;
+    gap: 20px; /* Space between list and components */
+    align-items: stretch; /* Ensure children stretch to equal height */
+    height: 100%; /* Make #cont fill its parent height */
+}
+
+#res {
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    background-color:#171717;
+    color: whitesmoke;
+    height: fit-content;
+    /* Allow this component to expand flexibly */
+}
+
+.location-item {
+    margin-bottom: 15px;
+}
+
+.vertical-form {
+    color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    width: 200px; /* Optional: set a fixed width */
+    min-height: 100%; /* Stretch to match parent height */
+    margin: 0;
+    padding: 3rem;
+    background-color: #171717;
+}
+
+
+.vertical-form label {
+    margin-bottom: 5px; /* Spacing between label and input */
+}
+
+.vertical-form input {
+    background-color: #2f2f2f;
+    color: white;
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 2px;
+    border-color: grey;
+    margin-bottom: 45px; /* Spacing between fields */
+    padding: 8px;
+    font-size: 14px;
+}
+
+.vertical-form button {
+    border-color: grey;
+    background-color: rgb(199, 191, 191);
+    border-style: solid;
+    margin-top: 25px; /* Spacing between fields */
+    border-radius: 15px;
+    padding: 8px;
+    font-weight: bold;
+    font-stretch: expanded;
+    font-size: 14px;
+}
+
+.vertical-form button:hover {
+    
+    background-color: rgb(231, 218, 218);
+    cursor: pointer;
 }

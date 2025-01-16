@@ -7,22 +7,45 @@
         <title>Document</title>
     </head>
     <body>
-        <h1>This is a heading</h1>
-        <form method="POST">
 
-            <label for="city">City:</label>
-        
-            <input type="text" id="city" name="city" placeholder="Enter City">
-        
-            <label for="zip">Zip Code:</label>
-        
-            <input type="text" id="zip" name="zip" placeholder="Enter Zip Code">
-        
-            <button type="submit">Submit</button>
-        
-        </form>
+        <div id="cont">
+            <form method="POST" class="vertical-form">
+                
+                <label for="state">State:</label>
+            
+                <input type="text" id="state" name="state" placeholder="Enter State">
 
-        <p>Response: {{response}}</p>
+                <label for="city">City:</label>
+            
+                <input type="text" id="city" name="city" placeholder="Enter City">
+            
+                <label for="zip">Zip Code:</label>
+            
+                <input type="text" id="zip" name="zip" placeholder="Enter Zip Code">
+
+                <label for="criteria">Criteria:</label>
+            
+                <input type="text" id="criteria" name="criteria" placeholder="Enter Criteria">
+            
+                <button type="submit">Submit</button>
+                
+            
+            </form>
+
+            <div class="location-list" id="res">
+                {% for location in valid_addresses %}
+                <div class="location-item">
+                    <div class="location-name">{{ location.name }}</div>
+                    <div class="location-info">{{ location.address }}, {{location.city}}, {{location.state}}, {{location.zip}}</div>
+                </div>
+                {% endfor %}
+            </div>
+
+            
+        </div>
+        
+
+            
         
     </body>
 </html>
