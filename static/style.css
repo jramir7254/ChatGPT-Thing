@@ -11,6 +11,10 @@ html, body {
     height: 100%; /* Make #cont fill its parent height */
 }
 
+#map {
+    flex: 1;
+}
+
 #res {
     margin-top: 20px;
     padding: 20px;

@@ -1,43 +1,92 @@
 [
-{
-    "name": "El Paso International Airport",
-    "address": "6701 Convair Rd",
-    "city": "El Paso",
-    "state": "TX",
-    "zip": "79925",
-    "x-coordinate": 31.8058,
-    "y-coordinate": -106.3705
-},{
-    "name": "Cielo Vista Mall",
-    "address": "8401 Gateway Blvd W",
-    "city": "El Paso",
-    "state": "TX",
-    "zip": "79925",
-    "x-coordinate": 31.775490,
-    "y-coordinate": -106.379663
-},{
-    "name": "The Fountains at Farah",
-    "address": "8889 Gateway Blvd W",
-    "city": "El Paso",
-    "state": "TX",
-    "zip": "79925",
-    "x-coordinate": 31.7707664,
-    "y-coordinate": -106.3717461
-},{
-    "name": "El Paso Community College",
-    "address": "9050 Viscount Blvd",
-    "city": "El Paso",
-    "state": "TX",
-    "zip": "79925",
-    "x-coordinate": 31.772221,
-    "y-coordinate": -106.371297
-},{
-    "name": "Bassett Place Mall",
-    "address": "6101 Gateway Blvd W",
-    "city": "El Paso",
-    "state": "TX",
-    "zip": "79925",
-    "x-coordinate": 31.783018,
-    "y-coordinate": -106.411734
-}
+    {
+        "name": "El Paso Museum of Art",
+        "address": "Sir Isaac 1 Arts Festival Pl",
+        "city": "El Paso",
+        "state": "TX",
+        "zip code": "79901",
+        "x-coordinate": 31.7619,
+        "y-coordinate": -106.485
+    },
+    {
+        "name": "Franklin Mountains State Park",
+        "address": "Franklin Mtns State Park",
+        "city": "El Paso",
+        "state": "TX",
+        "zip code": "79930",
+        "x-coordinate": 31.8793,
+        "y-coordinate": -106.5083
+    },
+    {
+        "name": "El Paso Zoo",
+        "address": "4001 E Paisano Dr",
+        "city": "El Paso",
+        "state": "TX",
+        "zip code": "79905",
+        "x-coordinate": 31.7475,
+        "y-coordinate": -106.4635
+    },
+    {
+        "name": "Scenic Drive",
+        "address": "Scenic Drive",
+        "city": "El Paso",
+        "state": "TX",
+        "zip code": "79912",
+        "x-coordinate": 31.7881,
+        "y-coordinate": -106.4984
+    },
+    {
+        "name": "Plaza Theatre",
+        "address": "125 Pioneer Plaza",
+        "city": "El Paso",
+        "state": "TX",
+        "zip code": "79901",
+        "x-coordinate": 31.762,
+        "y-coordinate": -106.4879
+    },
+    {
+        "name": "San Jacinto Plaza",
+        "address": "Corner of Main St and San Antonio Ave",
+        "city": "El Paso",
+        "state": "TX",
+        "zip code": "79901",
+        "x-coordinate": 31.7589,
+        "y-coordinate": -106.4874
+    },
+    {
+        "name": "El Paso International Airport",
+        "address": "6701 Convair Rd",
+        "city": "El Paso",
+        "state": "TX",
+        "zip code": "79924",
+        "x-coordinate": 31.8076,
+        "y-coordinate": -106.3778
+    },
+    {
+        "name": "Mission Trail",
+        "address": "Mission Trail",
+        "city": "El Paso",
+        "state": "TX",
+        "zip code": "79938",
+        "x-coordinate": 31.7384,
+        "y-coordinate": -106.2928
+    },
+    {
+        "name": "Mesa Street",
+        "address": "Mesa St",
+        "city": "El Paso",
+        "state": "TX",
+        "zip code": "79912",
+        "x-coordinate": 31.8111,
+        "y-coordinate": -106.4657
+    },
+    {
+        "name": "El Paso Convention Center",
+        "address": "1 Civic Center Plaza",
+        "city": "El Paso",
+        "state": "TX",
+        "zip code": "79901",
+        "x-coordinate": 31.7602,
+        "y-coordinate": -106.4875
+    }
 ]
