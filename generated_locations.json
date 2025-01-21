@@ -1,92 +1,52 @@
 [
+
     {
-        "name": "El Paso Museum of Art",
-        "address": "Sir Isaac 1 Arts Festival Pl",
-        "city": "El Paso",
-        "state": "TX",
-        "zip code": "79901",
-        "x-coordinate": 31.7619,
-        "y-coordinate": -106.485
+        "id": "Bel Air High School|{'lat': 31.7477908, 'lng': -106.3463946}",
+        "name": "Bel Air High School",
+        "address": "731 North Yarbrough Drive, El Paso",
+        "location": {
+            "lat": 31.7477908,
+            "lng": -106.3463946
+        },
+        "types": [
+            "secondary_school",
+            "school",
+            "point_of_interest",
+            "establishment"
+        ]
     },
     {
-        "name": "Franklin Mountains State Park",
-        "address": "Franklin Mtns State Park",
-        "city": "El Paso",
-        "state": "TX",
-        "zip code": "79930",
-        "x-coordinate": 31.8793,
-        "y-coordinate": -106.5083
+        "id": "Dollar General|{'lat': 31.74175190000001, 'lng': -106.3624146}",
+        "name": "Dollar General",
+        "address": "500C North Carolina Drive, El Paso",
+        "location": {
+            "lat": 31.74175190000001,
+            "lng": -106.3624146
+        },
+        "types": [
+            "convenience_store",
+            "grocery_or_supermarket",
+            "drugstore",
+            "health",
+            "store",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ]
     },
     {
-        "name": "El Paso Zoo",
-        "address": "4001 E Paisano Dr",
-        "city": "El Paso",
-        "state": "TX",
-        "zip code": "79905",
-        "x-coordinate": 31.7475,
-        "y-coordinate": -106.4635
-    },
-    {
-        "name": "Scenic Drive",
-        "address": "Scenic Drive",
-        "city": "El Paso",
-        "state": "TX",
-        "zip code": "79912",
-        "x-coordinate": 31.7881,
-        "y-coordinate": -106.4984
-    },
-    {
-        "name": "Plaza Theatre",
-        "address": "125 Pioneer Plaza",
-        "city": "El Paso",
-        "state": "TX",
-        "zip code": "79901",
-        "x-coordinate": 31.762,
-        "y-coordinate": -106.4879
-    },
-    {
-        "name": "San Jacinto Plaza",
-        "address": "Corner of Main St and San Antonio Ave",
-        "city": "El Paso",
-        "state": "TX",
-        "zip code": "79901",
-        "x-coordinate": 31.7589,
-        "y-coordinate": -106.4874
-    },
-    {
-        "name": "El Paso International Airport",
-        "address": "6701 Convair Rd",
-        "city": "El Paso",
-        "state": "TX",
-        "zip code": "79924",
-        "x-coordinate": 31.8076,
-        "y-coordinate": -106.3778
-    },
-    {
-        "name": "Mission Trail",
-        "address": "Mission Trail",
-        "city": "El Paso",
-        "state": "TX",
-        "zip code": "79938",
-        "x-coordinate": 31.7384,
-        "y-coordinate": -106.2928
-    },
-    {
-        "name": "Mesa Street",
-        "address": "Mesa St",
-        "city": "El Paso",
-        "state": "TX",
-        "zip code": "79912",
-        "x-coordinate": 31.8111,
-        "y-coordinate": -106.4657
-    },
-    {
-        "name": "El Paso Convention Center",
-        "address": "1 Civic Center Plaza",
-        "city": "El Paso",
-        "state": "TX",
-        "zip code": "79901",
-        "x-coordinate": 31.7602,
-        "y-coordinate": -106.4875
+        "id": "Riverside High School|{'lat': 31.7337929, 'lng': -106.3723188}",
+        "name": "Riverside High School",
+        "address": "301 Midway Drive, El Paso",
+        "location": {
+            "lat": 31.7337929,
+            "lng": -106.3723188
+        },
+        "types": [
+            "secondary_school",
+            "school",
+            "point_of_interest",
+            "establishment"
+        ]
     }
 ]
