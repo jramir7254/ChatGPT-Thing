@@ -55,7 +55,7 @@ def search_all_place_types(api_key, bounds, zip_code):
 
     # Loop through all place types
     for place_type in random_place_types:
-        response = gmaps.places_nearby(location=location, radius=10_000, type=place_type)
+        response = gmaps.places_nearby(location=location, radius=50_000, type=place_type)
         if "results" in response:
             for place in response["results"]:
                 # Perform reverse geocoding to check the ZIP code
@@ -106,6 +106,8 @@ def generate_random_places(zip_code):
     api_key = os.getenv("GOOGLE_API_KEY")
     bounds = get_zip_bounds(api_key, zip_code)
     places = search_all_place_types(api_key, bounds, zip_code)
+    with open("locations/locations.json", 'w') as file:
+        json.dump(places, file, indent=4)
     random_places = random.sample(places, min(10, len(places)))
     return random_places
 

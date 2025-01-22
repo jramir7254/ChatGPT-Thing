@@ -9,6 +9,10 @@ html, body {
     height: 100%;
 }
 
+#response {
+    color: wheat;
+}
+
 .vertical-form {
     color: antiquewhite;
     display: flex;
@@ -18,11 +22,43 @@ html, body {
     background-color: #171717;
 }
 
+.hidden {
+    display: none;
+}
+
+#text {
+    position: absolute;
+    top: 10px; /* Position near the top-left of the map */
+    right: 10px;
+    background-color: rgba(23, 23, 23, 0.8); /* Semi-transparent background */
+    color: whitesmoke;
+    padding: 15px;
+    border-radius: 8px;
+    z-index: 10;
+    width: 300px;
+    max-height: 300px; /* Optional: Limit height and make it scrollable */
+    overflow-y: auto;
+}
+
 #map {
     flex: 1; /* Map takes up remaining space */
     position: relative;
     background-color: lightgray; /* Placeholder for map */
     overflow: hidden; /* Ensures overlay doesn't go outside */
+}
+
+#response {
+    position: absolute;
+    top: 10px; /* Position near the top-left of the map */
+    right: 10px;
+    background-color: rgba(23, 23, 23, 0.8); /* Semi-transparent background */
+    color: whitesmoke;
+    padding: 15px;
+    border-radius: 8px;
+    z-index: 10;
+    width: 300px;
+    max-height: 300px; /* Optional: Limit height and make it scrollable */
+    overflow-y: auto;
 }
 
 #res {

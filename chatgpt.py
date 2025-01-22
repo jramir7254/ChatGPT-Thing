@@ -10,29 +10,59 @@ import json
 import os
 
 
+'''
+Generate an adversarial scenario based on the given criteria {criteria} where adversarial thinking must be applied
+to solve an infrastructural problem
+'''
+
+# prompt = f'''
+# Provide a list of up to 10 prominent locations, historical or representative of the area, that are typically 
+# found within the ZIP code {zip} of the city of {city}.These locations do not need to be current, but they 
+# should be commonly recognized places in that ZIP code area. Return the results in a JSON array, structured 
+# as follows: ["name": "name", "address": "address"]. Do not include any additional text, explanations, or 
+# formatting outside of the JSON.
+
+# Ensure that all locations are strictly within the given ZIP code.
+# '''
 
 load_dotenv()
 
 client = OpenAI()
 
 
-def get_response(city, zip):
-    prompt = f'''
-    Provide a list of up to 10 prominent locations, historical or representative of the area, that are typically 
-    found within the ZIP code {zip} of the city of {city}.These locations do not need to be current, but they 
-    should be commonly recognized places in that ZIP code area. Return the results in a JSON array, structured 
-    as follows: ["name": "name", "address": "address"]. Do not include any additional text, explanations, or 
-    formatting outside of the JSON.
 
-    Ensure that all locations are strictly within the given ZIP code.
+
+def get_response(city, zip, criteria, locations, bloom):
+
+    prompt = f'''
+    Generate one adversarial scenario that is three sentences max based on the given criteria ({criteria}) and 
+    the following locations that is very specific and detailed where adversarial thinking must be applied
+    to solve a problem related to route taking. Do not provide a solution only the problem/challenge. End with
+    a question about the problem/challenge:
+
+    {locations}
     '''
+
+    prompt2 = f'''
+    Modify the scenario so that it adjusts the problem to the provided Blooms Taxonomy for 
+    computing, the criteria ({criteria}), and the given locations. Assign a task where adversarial thinking must be applied to the problem. Ensure 
+    the task can be solved with basic programming. Make the task clear and be specific on 
+    what must be solved. Provide all needed inputs. Only output the instructions for the task.
+
+    Scenario: An adversary got access to the citys system and are manipulating the traffic lights. 
+
+    Bloom: {bloom}
+
+    Locations: {locations}
+    '''
+
     
     return client.chat.completions.create(
         model="gpt-4o",  
         messages=[
             {
                 "role": "user",
-                "content": prompt
+                "content": prompt2
             }
         ]
     ).choices[0].message.content
