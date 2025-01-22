@@ -101,6 +101,15 @@ def filter_places_by_zip(api_key, places, zip_code):
     return filtered_places
 
 
+
+def generate_random_places(zip_code):
+    api_key = os.getenv("GOOGLE_API_KEY")
+    bounds = get_zip_bounds(api_key, zip_code)
+    places = search_all_place_types(api_key, bounds, zip_code)
+    random_places = random.sample(places, min(10, len(places)))
+    return random_places
+
+
 # Main function
 def main():
     # Replace with your Google API Key

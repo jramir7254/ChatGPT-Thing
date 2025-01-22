@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Cielo Vista Mall",
+        "address": "8401 Gateway Blvd W",
+        "location": {
+            "lat": 31.7736005,
+            "lng": -106.3792774
+        }
+    },
+    {
+        "name": "The Fountains at Farah",
+        "address": "8889 Gateway Blvd W",
+        "location": {
+            "lat": 31.7690355,
+            "lng": -106.3707038
+        }
+    },
+    {
+        "name": "Edgemere Park",
+        "address": "8600 Edgemere Blvd",
+        "location": {
+            "lat": 31.7867992,
+            "lng": -106.373525
+        }
+    }
+]
