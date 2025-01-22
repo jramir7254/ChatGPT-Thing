@@ -1,4 +1,0 @@
-Provide a list of up to 20 prominent locations in the city of {city} that are strictly within 
-or as close as possible to the ZIP code {zip}. Return the results in JSON format, structured as follows:
-["name": "name", "address": "address", "city": "city", "state": "state", "zip": "zip"],
-Do not include any additional text, explanations, or formatting outside of the JSON.

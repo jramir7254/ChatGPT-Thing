@@ -1,0 +1,137 @@
+[
+    {
+        "id": "Alvarado Notary & Tax Services|{'lat': 31.7265188, 'lng': -106.3733488}",
+        "name": "Alvarado Notary & Tax Services",
+        "address": "7840 Knights Drive 308 Building N, El Paso",
+        "location": {
+            "lat": 31.7265188,
+            "lng": -106.3733488
+        },
+        "types": [
+            "accounting",
+            "finance",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    {
+        "id": "Pet's Barn|{'lat': 31.725531, 'lng': -106.3495251}",
+        "name": "Pet's Barn",
+        "address": "368 North Yarbrough Drive, El Paso",
+        "location": {
+            "lat": 31.725531,
+            "lng": -106.3495251
+        },
+        "types": [
+            "pet_store",
+            "store",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    {
+        "id": "Shavuot Israel|{'lat': 31.75790169999999, 'lng': -106.3843929}",
+        "name": "Shavuot Israel",
+        "address": "7141 North Loop Drive, El Paso",
+        "location": {
+            "lat": 31.75790169999999,
+            "lng": -106.3843929
+        },
+        "types": [
+            "synagogue",
+            "place_of_worship",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    {
+        "id": "Mel's Beauty Salon|{'lat': 31.7270635, 'lng': -106.3495294}",
+        "name": "Mel's Beauty Salon",
+        "address": "424 North Yarbrough Drive site J, El Paso",
+        "location": {
+            "lat": 31.7270635,
+            "lng": -106.3495294
+        },
+        "types": [
+            "beauty_salon",
+            "hair_care",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    {
+        "id": "H&R Block|{'lat': 31.7413391, 'lng': -106.352669}",
+        "name": "H&R Block",
+        "address": "850 North Carolina Drive Space 5, El Paso",
+        "location": {
+            "lat": 31.7413391,
+            "lng": -106.352669
+        },
+        "types": [
+            "accounting",
+            "finance",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    {
+        "id": "Western-Shamrock Finance|{'lat': 31.7634979, 'lng': -106.3644223}",
+        "name": "Western-Shamrock Finance",
+        "address": "1850 Hunter Drive #108, El Paso",
+        "location": {
+            "lat": 31.7634979,
+            "lng": -106.3644223
+        },
+        "types": [
+            "accounting",
+            "finance",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    {
+        "id": "Silver Tax Service|{'lat': 31.73663019999999, 'lng': -106.3721241}",
+        "name": "Silver Tax Service",
+        "address": "7580 Alameda Avenue #3, El Paso",
+        "location": {
+            "lat": 31.73663019999999,
+            "lng": -106.3721241
+        },
+        "types": [
+            "accounting",
+            "finance",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    {
+        "id": "BANEZ ENTERPRISES LLC|{'lat': 31.721885, 'lng': -106.3550829}",
+        "name": "BANEZ ENTERPRISES LLC",
+        "address": "8090 Alameda Avenue, El Paso",
+        "location": {
+            "lat": 31.721885,
+            "lng": -106.3550829
+        },
+        "types": [
+            "accounting",
+            "finance",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    {
+        "id": "Novaera Cuts|{'lat': 31.7293153, 'lng': -106.3477252}",
+        "name": "Novaera Cuts",
+        "address": "455 North Yarbrough Drive, El Paso",
+        "location": {
+            "lat": 31.7293153,
+            "lng": -106.3477252
+        },
+        "types": [
+            "store",
+            "beauty_salon",
+            "point_of_interest",
+            "establishment"
+        ]
+    }
+]

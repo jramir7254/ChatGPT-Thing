@@ -1,43 +1,50 @@
 html, body {
-    height: 100%; /* Ensure the root and body fill the viewport */
+    height: 100%;
     margin: 0;
     background-color: #212121;
 }
 
 #cont {
     display: flex;
-    gap: 20px; /* Space between list and components */
-    align-items: stretch; /* Ensure children stretch to equal height */
-    height: 100%; /* Make #cont fill its parent height */
-}
-
-#map {
-    flex: 1;
-}
-
-#res {
-    margin-top: 20px;
-    padding: 20px;
-    border-radius: 5px;
-    background-color:#171717;
-    color: whitesmoke;
-    height: fit-content;
-    /* Allow this component to expand flexibly */
-}
-
-.location-item {
-    margin-bottom: 15px;
+    height: 100%;
 }
 
 .vertical-form {
     color: antiquewhite;
     display: flex;
     flex-direction: column;
-    width: 200px; /* Optional: set a fixed width */
-    min-height: 100%; /* Stretch to match parent height */
-    margin: 0;
-    padding: 3rem;
+    width: 250px; /* Set fixed width for the form */
+    padding: 20px;
     background-color: #171717;
+}
+
+#map {
+    flex: 1; /* Map takes up remaining space */
+    position: relative;
+    background-color: lightgray; /* Placeholder for map */
+    overflow: hidden; /* Ensures overlay doesn't go outside */
+}
+
+#res {
+    position: absolute;
+    top: 10px; /* Position near the top-left of the map */
+    left: 10px;
+    background-color: rgba(23, 23, 23, 0.8); /* Semi-transparent background */
+    color: whitesmoke;
+    padding: 15px;
+    border-radius: 8px;
+    z-index: 10;
+    width: 200px;
+    max-height: 300px; /* Optional: Limit height and make it scrollable */
+    overflow-y: auto;
+}
+
+.location-item {
+    margin-bottom: 10px;
+}
+
+.location-item:last-child {
+    margin-bottom: 0; /* Remove extra margin for last item */
 }
 
 
