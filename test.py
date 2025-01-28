@@ -1,8 +1,20 @@
+import json
 from flask import Flask, request, jsonify, render_template
 from openai import OpenAI
 from dotenv import load_dotenv
+from geopy.distance import geodesic
+import heapq
+from scipy.spatial import Delaunay
+import numpy as np
+import numpy as np
+from PyPDF2 import PdfReader
 import requests
 import os
+import networkx as nx
+import matplotlib.pyplot as plt
+from math import sqrt
+
+
 
 load_dotenv()
 
@@ -10,9 +22,9 @@ client = OpenAI()
 
 google_api_key = os.getenv("GOOGLE_API_KEY")
 
-def get_response():
-    prompt = '''
-    output the directions for the safest route from sams club 7001 Gateway Blvd W, El Paso, TX 79925 to Albertsons floral 2200 N Yarbrough Dr, El Paso, TX 79925
+def get_response(pdf):
+    prompt = f'''
+    Summarize the following in six sentences or less: {pdf}
     '''
     
     return client.chat.completions.create(
@@ -25,26 +37,64 @@ def get_response():
         ]
     ).choices[0].message.content
 
+def generate_pdf():
+    # Load the PDF file
+    from fpdf import FPDF
+
+    # Create PDF instance
+    pdf = FPDF()
+    pdf.add_page()
+    pdf.set_font("Arial", size=12)
+
+    # Add content
+    pdf.cell(200, 10, txt="Hello, FPDF!", ln=True, align='C')
+    pdf.multi_cell(0, 10, txt="This is a sample PDF created using Python's FPDF library.")
+
+    # Save the PDF
+    file_name = "example_fpdf.pdf"
+    pdf.output(file_name)
+    print(f"PDF created: {file_name}")
+
+def calculate_distance(coord1, coord2):
+    return sqrt((coord1['lat'] - coord2['lat'])**2 + (coord1['lng'] - coord2['lng'])**2)
+
 
 if __name__ == "__main__":
-   # Basic route data
-    routes = {
-        "Route 1": [("Intersection A", 30), ("Intersection B", 45)],  # Time at each intersection
-        "Route 2": [("Intersection X", 40), ("Intersection Y", 50)],
-    }
+    # Load coordinates
 
-    # Simulate normal traffic light timings
-    normal_timings = {"green": 30, "red": 60}
+    with open("locations/generated_locations_google.json", 'r') as file:
+        data = json.load(file)
+    coordinates = {}
+    for place in data:
+        coordinates[place['name']] = (place['location']['lat'], place['location']['lng'])
 
-    # Function to simulate adversarial manipulations
-    def simulate_route(route, green_penalty=0, red_penalty=20):
-        total_time = 0
-        for intersection, normal_time in route:
-            total_time += normal_time + green_penalty + red_penalty  # Adversarial delays
-        return total_time
+    G = nx.DiGraph()  # Directed graph
+    with open("locations_with_coords_weights.txt", 'r') as output_lines_with_coords:
+        for line in output_lines_with_coords:
+            # Parse the updated .txt data
+            line = line.strip().strip("()")
+            source, destination, weight, src_lat, src_lng, dest_lat, dest_lng = line.split(", ")
+            G.add_edge(source, destination, weight=float(weight))
 
-    # Compare routes
-    for name, route in routes.items():
-        manipulated_time = simulate_route(route, green_penalty=10, red_penalty=30)
-        print(f"{name} takes {manipulated_time} seconds under manipulation.")
+    # Extract coordinates for plotting
+    node_positions = {node: (lng, lat) for node, (lat, lng) in coordinates.items()}
 
+    # Plot the graph with the coordinates
+    plt.figure(figsize=(10, 8))
+    nx.draw(
+        G,
+        pos=node_positions,
+        with_labels=True,
+        node_color="lightblue",
+        node_size=2000,
+        font_size=10,
+        edge_color="gray",
+    )
+    # Add edge weights as labels
+    edge_labels = nx.get_edge_attributes(G, "weight")
+    nx.draw_networkx_edge_labels(G, pos=node_positions, edge_labels={(u, v): f"{d:.2f}" for u, v, d in G.edges(data="weight")})
+
+    plt.title("Graph of Locations with Coordinates")
+    plt.xlabel("Longitude")
+    plt.ylabel("Latitude")
+    plt.show()

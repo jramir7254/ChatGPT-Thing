@@ -1,30 +1,160 @@
 [
     {
-        "id": "El Paso Police Department|{'lat': 31.7834127, 'lng': -106.4612383}",
-        "name": "El Paso Police Department",
-        "address": "911 North Raynor Street, El Paso",
+        "id": "Rack Room Shoes|{'lat': 31.7831908, 'lng': -106.4130581}",
+        "name": "Rack Room Shoes",
+        "address": "6101 Gateway Boulevard West #440, El Paso",
         "location": {
-            "lat": 31.7834127,
-            "lng": -106.4612383
+            "lat": 31.7831908,
+            "lng": -106.4130581
         },
         "types": [
-            "police",
+            "shoe_store",
+            "store",
             "point_of_interest",
             "establishment"
         ]
     },
     {
-        "id": "Redbox|{'lat': 31.788602, 'lng': -106.449194}",
-        "name": "Redbox",
-        "address": "3815 Pershing Drive, El Paso",
+        "id": "Mister Car Wash|{'lat': 31.7721943, 'lng': -106.3774533}",
+        "name": "Mister Car Wash",
+        "address": "8857 Gateway Boulevard West, El Paso",
         "location": {
-            "lat": 31.788602,
-            "lng": -106.449194
+            "lat": 31.7721943,
+            "lng": -106.3774533
         },
         "types": [
-            "movie_rental",
+            "car_wash",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    {
+        "id": "Andale Mexican Restaurant and Cantina|{'lat': 31.7658402, 'lng': -106.3651468}",
+        "name": "Andale Mexican Restaurant and Cantina",
+        "address": "9201 Gateway Boulevard West, El Paso",
+        "location": {
+            "lat": 31.7658402,
+            "lng": -106.3651468
+        },
+        "types": [
+            "night_club",
+            "bar",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    {
+        "id": "El Paso PREMIERE LUX CINE 17 IMAX|{'lat': 31.7836697, 'lng': -106.4128875}",
+        "name": "El Paso PREMIERE LUX CINE 17 IMAX",
+        "address": "6101 Gateway Boulevard West Suite 15, El Paso",
+        "location": {
+            "lat": 31.7836697,
+            "lng": -106.4128875
+        },
+        "types": [
+            "movie_theater",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    {
+        "id": "Champs Sports|{'lat': 31.7745159, 'lng': -106.3784958}",
+        "name": "Champs Sports",
+        "address": "8401 Gateway Boulevard West, El Paso",
+        "location": {
+            "lat": 31.7745159,
+            "lng": -106.3784958
+        },
+        "types": [
+            "shoe_store",
+            "clothing_store",
+            "store",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    {
+        "id": "Premiere Cinemas 18|{'lat': 31.7836654, 'lng': -106.4128838}",
+        "name": "Premiere Cinemas 18",
+        "address": "United States",
+        "location": {
+            "lat": 31.7836654,
+            "lng": -106.4128838
+        },
+        "types": [
+            "movie_theater",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    {
+        "id": "GUESS|{'lat': 31.774746, 'lng': -106.3788594}",
+        "name": "GUESS",
+        "address": "8401 Gateway Boulevard West Suite B06A, El Paso",
+        "location": {
+            "lat": 31.774746,
+            "lng": -106.3788594
+        },
+        "types": [
+            "clothing_store",
+            "shoe_store",
+            "store",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    {
+        "id": "Spencer's|{'lat': 31.7753257, 'lng': -106.3791262}",
+        "name": "Spencer's",
+        "address": "8401 Gateway Boulevard West, El Paso",
+        "location": {
+            "lat": 31.7753257,
+            "lng": -106.3791262
+        },
+        "types": [
+            "jewelry_store",
+            "clothing_store",
+            "store",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    {
+        "id": "Target|{'lat': 31.7830244, 'lng': -106.4141009}",
+        "name": "Target",
+        "address": "6001 Gateway Boulevard West, El Paso",
+        "location": {
+            "lat": 31.7830244,
+            "lng": -106.4141009
+        },
+        "types": [
+            "department_store",
+            "shoe_store",
+            "electronics_store",
+            "clothing_store",
+            "furniture_store",
+            "home_goods_store",
             "point_of_interest",
             "store",
+            "establishment"
+        ]
+    },
+    {
+        "id": "Cinemark Cielo Vista Mall 14 and XD|{'lat': 31.7784341, 'lng': -106.3828163}",
+        "name": "Cinemark Cielo Vista Mall 14 and XD",
+        "address": "8401C Gateway Boulevard West, El Paso",
+        "location": {
+            "lat": 31.7784341,
+            "lng": -106.3828163
+        },
+        "types": [
+            "movie_theater",
+            "meal_takeaway",
+            "restaurant",
+            "point_of_interest",
+            "food",
             "establishment"
         ]
     }

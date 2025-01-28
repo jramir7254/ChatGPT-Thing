@@ -19,7 +19,7 @@ html, body {
     flex-direction: column;
     width: 250px; /* Set fixed width for the form */
     padding: 20px;
-    background-color: #171717;
+    background-color: rgb(23, 23, 23, 0.8);
 }
 
 .hidden {

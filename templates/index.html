@@ -5,27 +5,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" link href="/static/style.css">
         <title>Document</title>
-        <script>
-            const button = document.getElementById('toggleButton');
-            const component1 = document.getElementById('response');
-            const component2 = document.getElementById('text');
-
-            button.addEventListener('click', () => {
-            alert("sds")
-            if (component1.classList.contains('hidden')) {
-                component1.classList.remove('hidden');
-                component2.classList.add('hidden');
-            } else {
-                component1.classList.add('hidden');
-                component2.classList.remove('hidden');
-            }
-            });
-        </script>
     </head>
     <body>
-
-
-
         <div id="cont">
             <form method="POST" class="vertical-form">
                 <label for="state">State:</label>
@@ -36,10 +17,17 @@
                 <input type="text" id="zip" name="zip" placeholder="Enter Zip Code">
                 <label for="criteria">Criterion:</label>
                 <input type="text" id="criterion" name="criterion" placeholder="Enter Criterion">
+                <label for="blooms">Blooms Taxonomy:</label>
+                <select id="blooms" name="blooms">
+                    <option value="option1">Reasoning</option>
+                    <option value="option2">Understanding</option>
+                    <option value="option3">Applying</option>
+                    <option value="option4">Analyzing</option>
+                    <option value="option4">Evaluating</option>
+                    <option value="option5">Creating</option>
+                </select>
                 <button type="submit">Submit</button>
             </form>
-            
-
             
         
             <div id="map">
@@ -53,12 +41,8 @@
                 </div>
                 {{ map_html|safe }}
             </div>
-            <button id="toggleButton">Button</button>
             <div id="response">
                 {{response}}
-            </div>
-            <div class="hidden" id="text">
-                field
             </div>
         </div>
     </body>
