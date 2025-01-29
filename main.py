@@ -23,7 +23,8 @@ def index():
         user_city = request.form['city']
         user_zip = request.form['zip']
         user_criterion = request.form['criterion']
-        print(f'user city: {user_city}\nuser zip: {user_zip}')
+        user_bloom = request.form['blooms']
+        print(f'user city: {user_city}\nuser zip: {user_zip}\nuser criterion: {user_criterion}\nuser bloom: {user_bloom}\n')
 
         # Setting to True uses the Google Maps API, setting to False uses the ChatGPT API
         if True:
@@ -39,7 +40,7 @@ def index():
 
         map_html = generate_folium_map(locations, user_zip)
 
-        response = get_response("", "", user_criterion, locations, user_city)
+        response = get_response("", "", user_criterion, locations, user_bloom)
         print(f'\n\n{response}\n\n')
 
         return render_template('index.html', locations=locations, map_html=map_html, response=response)

@@ -1,202 +1,82 @@
 [
     {
-        "name": "Southwest University",
-        "address": "6101 Montana Avenue, El Paso",
+        "name": "La Bam Baz Sweepstakes (Coming SOON!)",
+        "address": "3105 North Yarbrough Drive, El Paso",
         "location": {
-            "lat": 31.7881511,
-            "lng": -106.413014
+            "lat": 31.7861467,
+            "lng": -106.3359351
         },
         "types": [
-            "university",
-            "health",
+            "casino",
             "point_of_interest",
             "establishment"
         ]
     },
     {
-        "name": "Hooters",
-        "address": "1170 Sunmount Drive, El Paso",
+        "name": "Sun City Card Club",
+        "address": "9627 Sims Drive # N, El Paso",
         "location": {
-            "lat": 31.778672,
-            "lng": -106.3848291
+            "lat": 31.7632506,
+            "lng": -106.3568619
         },
         "types": [
-            "bar",
-            "meal_delivery",
-            "meal_takeaway",
-            "restaurant",
-            "food",
-            "point_of_interest",
-            "establishment"
-        ]
-    },
-    {
-        "name": "Olive Garden Italian Restaurant",
-        "address": "8401 Gateway Boulevard West, El Paso",
-        "location": {
-            "lat": 31.7736237,
-            "lng": -106.3791777
-        },
-        "types": [
-            "bar",
-            "meal_takeaway",
-            "restaurant",
-            "food",
-            "point_of_interest",
-            "establishment"
-        ]
-    },
-    {
-        "name": "Buffalo Wild Wings",
-        "address": "10497 Gateway Boulevard West, El Paso",
-        "location": {
-            "lat": 31.7547607,
-            "lng": -106.3475634
-        },
-        "types": [
-            "bar",
-            "meal_takeaway",
-            "restaurant",
-            "food",
-            "point_of_interest",
-            "establishment"
-        ]
-    },
-    {
-        "name": "Andale Mexican Restaurant and Cantina",
-        "address": "9201 Gateway Boulevard West, El Paso",
-        "location": {
-            "lat": 31.7658402,
-            "lng": -106.3651468
-        },
-        "types": [
-            "bar",
-            "night_club",
-            "restaurant",
-            "food",
-            "point_of_interest",
-            "establishment"
-        ]
-    },
-    {
-        "name": "Sol Hair Illusions",
-        "address": "10501 Gateway Boulevard West # 103, El Paso",
-        "location": {
-            "lat": 31.756424,
-            "lng": -106.343065
-        },
-        "types": [
-            "hair_care",
-            "point_of_interest",
-            "establishment"
-        ]
-    },
-    {
-        "name": "DICK'S Sporting Goods",
-        "address": "8889 Gateway Boulevard West #110, El Paso",
-        "location": {
-            "lat": 31.77198679999999,
-            "lng": -106.3738944
-        },
-        "types": [
-            "shoe_store",
-            "bicycle_store",
-            "clothing_store",
-            "point_of_interest",
+            "casino",
             "store",
-            "establishment"
-        ]
-    },
-    {
-        "name": "Marronz Kool Riderz (Lowrider Bike Shop)",
-        "address": "6130 Montana Avenue Suite #113, El Paso",
-        "location": {
-            "lat": 31.7860027,
-            "lng": -106.4109355
-        },
-        "types": [
-            "bicycle_store",
-            "point_of_interest",
-            "store",
-            "establishment"
-        ]
-    },
-    {
-        "name": "Cielo Vista",
-        "address": "8401 Gateway Boulevard West, El Paso",
-        "location": {
-            "lat": 31.7750435,
-            "lng": -106.37921
-        },
-        "types": [
-            "shopping_mall",
             "point_of_interest",
             "establishment"
         ]
     },
     {
-        "name": "Sunglass Hut",
-        "address": "8401 Gateway Boulevard West K102, El Paso",
+        "name": "JLTD Sweepstakes",
+        "address": "3355 North Yarbrough Drive Suite H, El Paso",
         "location": {
-            "lat": 31.7746724,
-            "lng": -106.3787967
+            "lat": 31.79090109999999,
+            "lng": -106.3322848
         },
         "types": [
-            "shopping_mall",
-            "point_of_interest",
-            "store",
-            "establishment"
-        ]
-    },
-    {
-        "name": "Buck Rogers Travel",
-        "address": "1760 Airway Boulevard # 106, El Paso",
-        "location": {
-            "lat": 31.7928171,
-            "lng": -106.3944245
-        },
-        "types": [
-            "travel_agency",
+            "casino",
             "point_of_interest",
             "establishment"
         ]
     },
     {
-        "name": "Certified Folder Display Service, Inc.",
-        "address": "9401 Carnegie Avenue Unit 1-G, El Paso",
+        "name": "El Paso Public Library Jos\u00e9 Cisneros Cielo Vista Branch",
+        "address": "1300 Hawkins Boulevard, El Paso",
         "location": {
-            "lat": 31.7966358,
-            "lng": -106.3614932
+            "lat": 31.7783479,
+            "lng": -106.3720117
         },
         "types": [
-            "travel_agency",
+            "art_gallery",
+            "library",
             "point_of_interest",
             "establishment"
         ]
     },
     {
-        "name": "Celina Plaza",
-        "address": "9300 Montana Avenue, El Paso",
+        "name": "LifeGate Church",
+        "address": "10555 Edgemere Boulevard, El Paso",
         "location": {
-            "lat": 31.79373329999999,
-            "lng": -106.3625592
+            "lat": 31.78974520000001,
+            "lng": -106.335188
         },
         "types": [
-            "travel_agency",
-            "real_estate_agency",
+            "church",
+            "place_of_worship",
             "point_of_interest",
             "establishment"
         ]
     },
     {
-        "name": "A la Carte Tours",
-        "address": "3100 North Yarbrough Drive Unit 371094, El Paso",
+        "name": "Immanuel Church",
+        "address": "1201 Hawkins Boulevard, El Paso",
         "location": {
-            "lat": 31.7846407,
-            "lng": -106.3352499
+            "lat": 31.7766983,
+            "lng": -106.3745065
         },
         "types": [
-            "travel_agency",
+            "church",
+            "place_of_worship",
             "point_of_interest",
             "establishment"
         ]
@@ -210,8 +90,8 @@
         },
         "types": [
             "car_dealer",
-            "point_of_interest",
             "store",
+            "point_of_interest",
             "establishment"
         ]
     },
@@ -223,10 +103,10 @@
             "lng": -106.4055168
         },
         "types": [
-            "car_dealer",
             "car_repair",
-            "point_of_interest",
+            "car_dealer",
             "store",
+            "point_of_interest",
             "establishment"
         ]
     },
@@ -241,8 +121,8 @@
             "car_rental",
             "finance",
             "car_dealer",
-            "point_of_interest",
             "store",
+            "point_of_interest",
             "establishment"
         ]
     },
@@ -254,10 +134,10 @@
             "lng": -106.3889238
         },
         "types": [
-            "car_dealer",
             "car_repair",
-            "point_of_interest",
+            "car_dealer",
             "store",
+            "point_of_interest",
             "establishment"
         ]
     },
@@ -270,10 +150,10 @@
         },
         "types": [
             "finance",
-            "car_dealer",
             "car_repair",
-            "point_of_interest",
+            "car_dealer",
             "store",
+            "point_of_interest",
             "establishment"
         ]
     },
@@ -287,8 +167,8 @@
         "types": [
             "car_dealer",
             "car_repair",
-            "point_of_interest",
             "store",
+            "point_of_interest",
             "establishment"
         ]
     },
@@ -301,10 +181,81 @@
         },
         "types": [
             "finance",
-            "car_dealer",
             "car_repair",
-            "point_of_interest",
+            "car_dealer",
             "store",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    {
+        "name": "Eastwood Park",
+        "address": "3110 Parkwood Street, El Paso",
+        "location": {
+            "lat": 31.7836001,
+            "lng": -106.3452161
+        },
+        "types": [
+            "park",
+            "tourist_attraction",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    {
+        "name": "Pinova Dental",
+        "address": "6065 Montana Avenue, El Paso",
+        "location": {
+            "lat": 31.7859716,
+            "lng": -106.4144748
+        },
+        "types": [
+            "dentist",
+            "doctor",
+            "health",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    {
+        "name": "Viscount Dental Associates",
+        "address": "9398 Viscount Boulevard suite 3E, El Paso",
+        "location": {
+            "lat": 31.7693548,
+            "lng": -106.3648582
+        },
+        "types": [
+            "dentist",
+            "health",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    {
+        "name": "Southwest Celebrity Smiles",
+        "address": "9515 Gateway Boulevard West Suite B, El Paso",
+        "location": {
+            "lat": 31.76239149999999,
+            "lng": -106.3598974
+        },
+        "types": [
+            "dentist",
+            "health",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    {
+        "name": "Gregory R. Caldwell, DDS MS",
+        "address": "9398 Viscount Boulevard #1a, El Paso",
+        "location": {
+            "lat": 31.76977529999999,
+            "lng": -106.3650131
+        },
+        "types": [
+            "dentist",
+            "health",
+            "point_of_interest",
             "establishment"
         ]
     }

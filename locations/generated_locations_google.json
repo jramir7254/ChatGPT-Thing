@@ -1,131 +1,56 @@
 [
     {
-        "name": "Buffalo Wild Wings",
-        "address": "10497 Gateway Boulevard West, El Paso",
+        "name": "Immanuel Church",
+        "address": "1201 Hawkins Boulevard, El Paso",
         "location": {
-            "lat": 31.7547607,
-            "lng": -106.3475634
+            "lat": 31.7766983,
+            "lng": -106.3745065
         },
         "types": [
-            "bar",
-            "meal_takeaway",
-            "restaurant",
-            "food",
+            "church",
+            "place_of_worship",
             "point_of_interest",
             "establishment"
         ]
     },
     {
-        "name": "Cielo Vista",
-        "address": "8401 Gateway Boulevard West, El Paso",
+        "name": "LifeGate Church",
+        "address": "10555 Edgemere Boulevard, El Paso",
         "location": {
-            "lat": 31.7750435,
-            "lng": -106.37921
+            "lat": 31.78974520000001,
+            "lng": -106.335188
         },
         "types": [
-            "shopping_mall",
+            "church",
+            "place_of_worship",
             "point_of_interest",
             "establishment"
         ]
     },
     {
-        "name": "Bravo Cadillac El Paso",
-        "address": "6555 Montana Avenue, El Paso",
+        "name": "El Paso Public Library Jos\u00e9 Cisneros Cielo Vista Branch",
+        "address": "1300 Hawkins Boulevard, El Paso",
         "location": {
-            "lat": 31.7896492,
-            "lng": -106.400628
+            "lat": 31.7783479,
+            "lng": -106.3720117
         },
         "types": [
-            "finance",
-            "car_dealer",
-            "car_repair",
-            "point_of_interest",
-            "store",
-            "establishment"
-        ]
-    },
-    {
-        "name": "Sunglass Hut",
-        "address": "8401 Gateway Boulevard West K102, El Paso",
-        "location": {
-            "lat": 31.7746724,
-            "lng": -106.3787967
-        },
-        "types": [
-            "shopping_mall",
-            "point_of_interest",
-            "store",
-            "establishment"
-        ]
-    },
-    {
-        "name": "Casa Ford",
-        "address": "5815 Montana Avenue, El Paso",
-        "location": {
-            "lat": 31.784643,
-            "lng": -106.418256
-        },
-        "types": [
-            "car_dealer",
-            "point_of_interest",
-            "store",
-            "establishment"
-        ]
-    },
-    {
-        "name": "Olive Garden Italian Restaurant",
-        "address": "8401 Gateway Boulevard West, El Paso",
-        "location": {
-            "lat": 31.7736237,
-            "lng": -106.3791777
-        },
-        "types": [
-            "bar",
-            "meal_takeaway",
-            "restaurant",
-            "food",
+            "art_gallery",
+            "library",
             "point_of_interest",
             "establishment"
         ]
     },
     {
-        "name": "Sol Hair Illusions",
-        "address": "10501 Gateway Boulevard West # 103, El Paso",
+        "name": "La Bam Baz Sweepstakes (Coming SOON!)",
+        "address": "3105 North Yarbrough Drive, El Paso",
         "location": {
-            "lat": 31.756424,
-            "lng": -106.343065
+            "lat": 31.7861467,
+            "lng": -106.3359351
         },
         "types": [
-            "hair_care",
+            "casino",
             "point_of_interest",
-            "establishment"
-        ]
-    },
-    {
-        "name": "A la Carte Tours",
-        "address": "3100 North Yarbrough Drive Unit 371094, El Paso",
-        "location": {
-            "lat": 31.7846407,
-            "lng": -106.3352499
-        },
-        "types": [
-            "travel_agency",
-            "point_of_interest",
-            "establishment"
-        ]
-    },
-    {
-        "name": "Poe Toyota",
-        "address": "6330 Montana Avenue, El Paso",
-        "location": {
-            "lat": 31.7882456,
-            "lng": -106.4055168
-        },
-        "types": [
-            "car_dealer",
-            "car_repair",
-            "point_of_interest",
-            "store",
             "establishment"
         ]
     },
@@ -140,8 +65,81 @@
             "car_rental",
             "finance",
             "car_dealer",
-            "point_of_interest",
             "store",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    {
+        "name": "Gregory R. Caldwell, DDS MS",
+        "address": "9398 Viscount Boulevard #1a, El Paso",
+        "location": {
+            "lat": 31.76977529999999,
+            "lng": -106.3650131
+        },
+        "types": [
+            "dentist",
+            "health",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    {
+        "name": "Southwest Celebrity Smiles",
+        "address": "9515 Gateway Boulevard West Suite B, El Paso",
+        "location": {
+            "lat": 31.76239149999999,
+            "lng": -106.3598974
+        },
+        "types": [
+            "dentist",
+            "health",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    {
+        "name": "Hoy Volkswagen El Paso",
+        "address": "7230 Viscount Boulevard, El Paso",
+        "location": {
+            "lat": 31.7809182,
+            "lng": -106.3889238
+        },
+        "types": [
+            "car_repair",
+            "car_dealer",
+            "store",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    {
+        "name": "Bravo Cadillac El Paso",
+        "address": "6555 Montana Avenue, El Paso",
+        "location": {
+            "lat": 31.7896492,
+            "lng": -106.400628
+        },
+        "types": [
+            "finance",
+            "car_repair",
+            "car_dealer",
+            "store",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    {
+        "name": "Eastwood Park",
+        "address": "3110 Parkwood Street, El Paso",
+        "location": {
+            "lat": 31.7836001,
+            "lng": -106.3452161
+        },
+        "types": [
+            "park",
+            "tourist_attraction",
+            "point_of_interest",
             "establishment"
         ]
     }

@@ -15,68 +15,43 @@ client = OpenAI()
 
 def get_response(city, zip_code, criteria, locations, bloom_level):
     """
-    Generates a structured assignment prompt based on Bloom’s Taxonomy,
-    adversarial thinking, and graph-based routing.
-
+    Generates a structured **Java-based** assignment that incorporates adversarial 
+    graph analysis, route manipulation, and security considerations.
+    
     Also generates a `.txt` file with weighted edges representing the graph.
     """
 
-    # Define the system-level instruction
+    # System-wide instruction for GPT to generate Java-based coding assignments
     system_instruction = """
-    Your task is to develop an assignment that encourages students or professors 
-    to engage with graph principles, adversarial thinking, Bloom's Taxonomy, 
-    and geographical familiarity using provided location data and criteria. 
-    This tool is designed to empower users in creating educational graph-based 
-    tasks that incorporate both analytical and creative thinking methodologies.
+    Your task is to develop a **Java-based** assignment that engages students with:
+    - Graph theory principles
+    - Adversarial thinking (attacks on shortest paths, node removals)
+    - Bloom's Taxonomy (learning-focused objectives)
+    - Geographical familiarity (sense of belonging via ZIP code data)
 
-    ## Steps
+    ## Assignment Format:
+    - **Title:** A descriptive, engaging name.
+    - **Introduction:** Explain graph theory, adversarial risks, and localized routing.
+    - **Programming Task:** Implement graph-based adversarial analysis in **Java**.
+    - **Code Requirements:**  
+      - Must include **Graph representation in Java** (use `HashMap`, `ArrayList`, `Graph` class).
+      - Implement **Dijkstra’s Algorithm** (or an alternative).
+      - Simulate **malicious edge modifications** (increase weights to reroute traffic).
+      - Implement **countermeasures** (validate shortest paths, detect irregularities).
+    - **Expected Output:** Java-based program solving the problem.
+    - **Adversarial Angle:** Focus on **attack detection** and **graph resilience**.
+    - **Sense of Belonging:** Emphasize using **familiar, local locations**.
 
-    1. **Input Collection:**
-      - User inputs a zip code and criteria (e.g., fastest or safest route).
-      - Use Google Maps API to generate ten random locations within the specified zip code area.
+    ## Example Java Programming Tasks:
+    1. **Detecting Route Manipulation:** Write a Java program that flags suspicious weight changes.
+    2. **Graph Resilience Testing:** Simulate adversarial attacks that remove nodes from a Java-based graph.
+    3. **Optimized Path Recovery:** Design an algorithm that recalculates shortest paths after manipulation.
 
-    2. **Graph Generation:**
-      - Convert the generated locations into a graph data structure in a `.txt` file 
-        with fields: (source, destination, weight).
-      - Ensure weights are based on the user's criteria.
-
-    3. **Assignment Creation:**
-      - Parse the `.txt` file containing the graph data.
-      - Incorporate elements of adversarial thinking and select one Bloom’s Taxonomy 
-        level to focus the assignment on (e.g., Creating, Analyzing).
-      - Design an engaging assignment task related to graph theory principles 
-        and adversarial scenarios.
-
-    4. **Incorporate 'Sense of Belonging':**
-      - Emphasize the familiarity of the locations based on the user’s zip code 
-        to add a personal and local dimension to the assignment.
-
-    ## Output Format
-
-    The assignment should be structured as follows:
-    - **Title:** A descriptive assignment name.
-    - **Introduction:** Explain graph theory and adversarial thinking.
-    - **Task:** Provide clear instructions, incorporating adversarial analysis.
-    - **Student Expectations:** What students should analyze or build.
-    - **Guidelines:** Ensure alignment with Bloom's Taxonomy.
-    - **Critical Thinking Prompts:** Encourage analytical reasoning.
-
-    ## Example Output:
-
-    **Title:** Enhancing Safety in Your Neighborhood: Analyzing Local Routes
-
-    **Introduction:**
-    In graph theory, nodes and edges create a framework for understanding interconnected 
-    processes. This assignment integrates graph principles with adversarial thinking 
-    to foster a deeper understanding of route safety within familiar locales.
-
-    **Task:**
-    Using the graph data provided based on your entered zip code and the criterion 
-    of safety, analyze and evaluate the interconnected paths. Identify vulnerabilities 
-    and propose enhancements to safety.
-
-    **Submission Guidelines:**
-    Compile analysis into a structured report using Bloom’s Analyzing framework.
+    **Each task must include:**  
+    - **Java code implementation details**  
+    - **Graph-based problem-solving**  
+    - **Security and adversarial considerations**  
+    - **Real-world applications**  
     """
 
     # Generate weighted edges for the graph
@@ -95,15 +70,17 @@ def get_response(city, zip_code, criteria, locations, bloom_level):
 
     # Generate the structured assignment
     user_prompt = f"""
-    Generate a structured assignment based on the following parameters:
+    Generate a **Java-based graph analysis assignment** using the following parameters:
 
     - **ZIP Code:** {zip_code}
     - **Criteria:** {criteria}
     - **Bloom’s Taxonomy Level:** {bloom_level}
     - **Locations:** {locations}
 
-    Follow the system instruction to ensure correct formatting and emphasis on graph-based 
-    adversarial thinking and educational goals.
+    Ensure the output follows the structured format and includes:
+    - **Graph manipulation in Java** (use `HashMap`, `ArrayList`)
+    - **Adversarial attack simulation or detection**
+    - **Real-world security implications**
     """
 
     response = client.chat.completions.create(
@@ -119,20 +96,19 @@ def get_response(city, zip_code, criteria, locations, bloom_level):
 
 def generate_assignment_pdf(assignment_text, graph_filename=None, pdf_filename="assignment.pdf"):
     """
-    Converts the structured assignment text into a well-formatted PDF.
-    Includes bold headings and structured sections for easy readability.
+    Converts a **Java-based** structured assignment into a **well-formatted PDF**, ensuring:
+    - **Bold headings** for section clarity
+    - **Monospace font** for Java code snippets
+    - **Graph reference** if a `.txt` file is included
     """
 
     pdf = FPDF()
     pdf.set_auto_page_break(auto=True, margin=15)
     pdf.add_page()
 
-    # Set default font
-    pdf.set_font("Arial", "", 12)
-
-    # Add title
+    # Set title font
     pdf.set_font("Arial", "B", 16)
-    pdf.cell(200, 10, "Graph-Based Adversarial Thinking Assignment", ln=True, align="C")
+    pdf.cell(200, 10, "Java-Based Graph Security Assignment", ln=True, align="C")
     pdf.ln(10)
 
     # Normalize Unicode characters that might cause encoding issues
@@ -142,12 +118,11 @@ def generate_assignment_pdf(assignment_text, graph_filename=None, pdf_filename="
     sections = {
         "Title": "B",
         "Introduction": "B",
-        "Task": "B",
-        "Student Expectations": "B",
-        "Guidelines": "B",
-        "Critical Thinking Prompts": "B",
+        "Programming Task": "B",
+        "Code Requirements": "B",
         "Expected Output": "B",
-        "Bloom’s Alignment": "B"
+        "Adversarial Angle": "B",
+        "Sense of Belonging": "B"
     }
 
     pdf.set_font("Arial", "", 12)
@@ -167,7 +142,11 @@ def generate_assignment_pdf(assignment_text, graph_filename=None, pdf_filename="
                 pdf.ln(4)  # Add spacing after section title
                 break
         else:
-            # Regular text
+            # Detect and format Java code blocks
+            if "```java" in line or "```" in line:
+                pdf.set_font("Courier", "", 11)  # Monospace for Java code
+            else:
+                pdf.set_font("Arial", "", 12)  # Regular text
             pdf.multi_cell(0, 7, line.strip())
             pdf.ln(3)  # Line spacing
 
@@ -180,7 +159,7 @@ def generate_assignment_pdf(assignment_text, graph_filename=None, pdf_filename="
         pdf.cell(0, 8, f"The graph file generated for this assignment is: {graph_filename}", ln=True)
 
     # Save the PDF
-    pdf.output(pdf_filename, "F")  # Force UTF-8 compatible encoding
+    pdf.output(pdf_filename, "F")
     print(f"✅ PDF successfully saved as {pdf_filename}")
 
 
