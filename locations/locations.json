@@ -1,104 +1,68 @@
 [
     {
-        "id": "Walmart Supercenter|{'lat': 31.77707479999999, 'lng': -106.3846817}",
-        "name": "Walmart Supercenter",
-        "address": "7101 Gateway Boulevard West, El Paso",
+        "name": "Southwest University",
+        "address": "6101 Montana Avenue, El Paso",
         "location": {
-            "lat": 31.77707479999999,
-            "lng": -106.3846817
+            "lat": 31.7881511,
+            "lng": -106.413014
         },
         "types": [
-            "department_store",
-            "grocery_or_supermarket",
-            "hardware_store",
-            "bakery",
-            "electronics_store",
-            "clothing_store",
-            "furniture_store",
-            "home_goods_store",
+            "university",
+            "health",
             "point_of_interest",
-            "store",
-            "food",
             "establishment"
         ]
     },
     {
-        "id": "JCPenney|{'lat': 31.77479499999999, 'lng': -106.380395}",
-        "name": "JCPenney",
+        "name": "Hooters",
+        "address": "1170 Sunmount Drive, El Paso",
+        "location": {
+            "lat": 31.778672,
+            "lng": -106.3848291
+        },
+        "types": [
+            "bar",
+            "meal_delivery",
+            "meal_takeaway",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    {
+        "name": "Olive Garden Italian Restaurant",
         "address": "8401 Gateway Boulevard West, El Paso",
         "location": {
-            "lat": 31.77479499999999,
-            "lng": -106.380395
+            "lat": 31.7736237,
+            "lng": -106.3791777
         },
         "types": [
-            "department_store",
-            "shoe_store",
-            "jewelry_store",
-            "clothing_store",
-            "furniture_store",
-            "home_goods_store",
-            "point_of_interest",
-            "store",
-            "establishment"
-        ]
-    },
-    {
-        "id": "Target|{'lat': 31.7830244, 'lng': -106.4141009}",
-        "name": "Target",
-        "address": "6001 Gateway Boulevard West, El Paso",
-        "location": {
-            "lat": 31.7830244,
-            "lng": -106.4141009
-        },
-        "types": [
-            "department_store",
-            "shoe_store",
-            "electronics_store",
-            "clothing_store",
-            "furniture_store",
-            "home_goods_store",
-            "point_of_interest",
-            "store",
-            "establishment"
-        ]
-    },
-    {
-        "id": "Ashley Store|{'lat': 31.787335, 'lng': -106.397226}",
-        "name": "Ashley Store",
-        "address": "1411 Airway Boulevard, El Paso",
-        "location": {
-            "lat": 31.787335,
-            "lng": -106.397226
-        },
-        "types": [
-            "furniture_store",
-            "home_goods_store",
-            "point_of_interest",
-            "store",
-            "establishment"
-        ]
-    },
-    {
-        "id": "Albertsons|{'lat': 31.7728257, 'lng': -106.3376597}",
-        "name": "Albertsons",
-        "address": "2200 North Yarbrough Drive, El Paso",
-        "location": {
-            "lat": 31.7728257,
-            "lng": -106.3376597
-        },
-        "types": [
-            "grocery_or_supermarket",
-            "florist",
-            "supermarket",
-            "bakery",
-            "point_of_interest",
-            "store",
+            "bar",
+            "meal_takeaway",
+            "restaurant",
             "food",
+            "point_of_interest",
             "establishment"
         ]
     },
     {
-        "id": "Andale Mexican Restaurant and Cantina|{'lat': 31.7658402, 'lng': -106.3651468}",
+        "name": "Buffalo Wild Wings",
+        "address": "10497 Gateway Boulevard West, El Paso",
+        "location": {
+            "lat": 31.7547607,
+            "lng": -106.3475634
+        },
+        "types": [
+            "bar",
+            "meal_takeaway",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    {
         "name": "Andale Mexican Restaurant and Cantina",
         "address": "9201 Gateway Boulevard West, El Paso",
         "location": {
@@ -106,8 +70,8 @@
             "lng": -106.3651468
         },
         "types": [
-            "night_club",
             "bar",
+            "night_club",
             "restaurant",
             "food",
             "point_of_interest",
@@ -115,401 +79,232 @@
         ]
     },
     {
-        "id": "Spine & Rehab Specialists|{'lat': 31.7834164, 'lng': -106.4036145}",
-        "name": "Spine & Rehab Specialists",
-        "address": "6358 Edgemere Boulevard, El Paso",
+        "name": "Sol Hair Illusions",
+        "address": "10501 Gateway Boulevard West # 103, El Paso",
         "location": {
-            "lat": 31.7834164,
-            "lng": -106.4036145
+            "lat": 31.756424,
+            "lng": -106.343065
         },
         "types": [
-            "physiotherapist",
-            "health",
+            "hair_care",
             "point_of_interest",
             "establishment"
         ]
     },
     {
-        "id": "Aveanna Healthcare|{'lat': 31.7804719, 'lng': -106.3868727}",
-        "name": "Aveanna Healthcare",
-        "address": "7400 Viscount Boulevard #200, El Paso",
+        "name": "DICK'S Sporting Goods",
+        "address": "8889 Gateway Boulevard West #110, El Paso",
         "location": {
-            "lat": 31.7804719,
-            "lng": -106.3868727
+            "lat": 31.77198679999999,
+            "lng": -106.3738944
         },
         "types": [
-            "physiotherapist",
-            "health",
-            "store",
-            "point_of_interest",
-            "establishment"
-        ]
-    },
-    {
-        "id": "Pamela Bustamante|{'lat': 31.7925443, 'lng': -106.3965812}",
-        "name": "Pamela Bustamante",
-        "address": "6611 Boeing Drive, El Paso",
-        "location": {
-            "lat": 31.7925443,
-            "lng": -106.3965812
-        },
-        "types": [
-            "physiotherapist",
-            "health",
-            "point_of_interest",
-            "establishment"
-        ]
-    },
-    {
-        "id": "Nancy Silva|{'lat': 31.7834183, 'lng': -106.403621}",
-        "name": "Nancy Silva",
-        "address": "6358 Edgemere Boulevard, El Paso",
-        "location": {
-            "lat": 31.7834183,
-            "lng": -106.403621
-        },
-        "types": [
-            "physiotherapist",
-            "health",
-            "point_of_interest",
-            "establishment"
-        ]
-    },
-    {
-        "id": "Spencer's|{'lat': 31.7753257, 'lng': -106.3791262}",
-        "name": "Spencer's",
-        "address": "8401 Gateway Boulevard West, El Paso",
-        "location": {
-            "lat": 31.7753257,
-            "lng": -106.3791262
-        },
-        "types": [
-            "jewelry_store",
-            "clothing_store",
-            "store",
-            "point_of_interest",
-            "establishment"
-        ]
-    },
-    {
-        "id": "Banter by Piercing Pagoda|{'lat': 31.7753257, 'lng': -106.3791262}",
-        "name": "Banter by Piercing Pagoda",
-        "address": "8401 Gateway Boulevard West K3, El Paso",
-        "location": {
-            "lat": 31.7753257,
-            "lng": -106.3791262
-        },
-        "types": [
-            "jewelry_store",
-            "store",
-            "point_of_interest",
-            "establishment"
-        ]
-    },
-    {
-        "id": "Michael Kors|{'lat': 31.77475909999999, 'lng': -106.379076}",
-        "name": "Michael Kors",
-        "address": "8401 Gateway Boulevard West Suite B05B, El Paso",
-        "location": {
-            "lat": 31.77475909999999,
-            "lng": -106.379076
-        },
-        "types": [
-            "jewelry_store",
             "shoe_store",
+            "bicycle_store",
             "clothing_store",
-            "store",
             "point_of_interest",
+            "store",
             "establishment"
         ]
     },
     {
-        "id": "Zales|{'lat': 31.7751846, 'lng': -106.3803286}",
-        "name": "Zales",
-        "address": "8401 Gateway Boulevard West Suite D06 C, El Paso",
+        "name": "Marronz Kool Riderz (Lowrider Bike Shop)",
+        "address": "6130 Montana Avenue Suite #113, El Paso",
         "location": {
-            "lat": 31.7751846,
-            "lng": -106.3803286
+            "lat": 31.7860027,
+            "lng": -106.4109355
         },
         "types": [
-            "jewelry_store",
-            "store",
+            "bicycle_store",
             "point_of_interest",
+            "store",
             "establishment"
         ]
     },
     {
-        "id": "Fossil Store|{'lat': 31.77481519999999, 'lng': -106.3792432}",
-        "name": "Fossil Store",
-        "address": "JCPenney Optical, 8401 Gateway Boulevard West, El Paso",
-        "location": {
-            "lat": 31.77481519999999,
-            "lng": -106.3792432
-        },
-        "types": [
-            "jewelry_store",
-            "store",
-            "point_of_interest",
-            "establishment"
-        ]
-    },
-    {
-        "id": "Claire's|{'lat': 31.7753257, 'lng': -106.3791262}",
-        "name": "Claire's",
+        "name": "Cielo Vista",
         "address": "8401 Gateway Boulevard West, El Paso",
         "location": {
-            "lat": 31.7753257,
-            "lng": -106.3791262
+            "lat": 31.7750435,
+            "lng": -106.37921
         },
         "types": [
-            "jewelry_store",
-            "store",
+            "shopping_mall",
             "point_of_interest",
             "establishment"
         ]
     },
     {
-        "id": "Burlington|{'lat': 31.753578, 'lng': -106.3427255}",
-        "name": "Burlington",
-        "address": "1144 North Yarbrough Drive, El Paso",
+        "name": "Sunglass Hut",
+        "address": "8401 Gateway Boulevard West K102, El Paso",
         "location": {
-            "lat": 31.753578,
-            "lng": -106.3427255
+            "lat": 31.7746724,
+            "lng": -106.3787967
         },
         "types": [
-            "clothing_store",
-            "department_store",
-            "jewelry_store",
-            "home_goods_store",
+            "shopping_mall",
+            "point_of_interest",
             "store",
+            "establishment"
+        ]
+    },
+    {
+        "name": "Buck Rogers Travel",
+        "address": "1760 Airway Boulevard # 106, El Paso",
+        "location": {
+            "lat": 31.7928171,
+            "lng": -106.3944245
+        },
+        "types": [
+            "travel_agency",
             "point_of_interest",
             "establishment"
         ]
     },
     {
-        "id": "Jonathan A Lomax Inc|{'lat': 31.7736688, 'lng': -106.3792182}",
-        "name": "Jonathan A Lomax Inc",
-        "address": "8401 Gateway Boulevard West, El Paso",
+        "name": "Certified Folder Display Service, Inc.",
+        "address": "9401 Carnegie Avenue Unit 1-G, El Paso",
         "location": {
-            "lat": 31.7736688,
-            "lng": -106.3792182
+            "lat": 31.7966358,
+            "lng": -106.3614932
         },
         "types": [
-            "jewelry_store",
-            "store",
+            "travel_agency",
             "point_of_interest",
             "establishment"
         ]
     },
     {
-        "id": "D'Chavez Jewelry|{'lat': 31.78335629999999, 'lng': -106.4138347}",
-        "name": "D'Chavez Jewelry",
-        "address": "6101 Gateway Boulevard West, El Paso",
+        "name": "Celina Plaza",
+        "address": "9300 Montana Avenue, El Paso",
         "location": {
-            "lat": 31.78335629999999,
-            "lng": -106.4138347
+            "lat": 31.79373329999999,
+            "lng": -106.3625592
         },
         "types": [
-            "jewelry_store",
-            "store",
+            "travel_agency",
+            "real_estate_agency",
             "point_of_interest",
             "establishment"
         ]
     },
     {
-        "id": "KAY Jewelers|{'lat': 31.7753257, 'lng': -106.3791262}",
-        "name": "KAY Jewelers",
-        "address": "8401 Gateway Boulevard West Spc. C01 A, El Paso",
+        "name": "A la Carte Tours",
+        "address": "3100 North Yarbrough Drive Unit 371094, El Paso",
         "location": {
-            "lat": 31.7753257,
-            "lng": -106.3791262
+            "lat": 31.7846407,
+            "lng": -106.3352499
         },
         "types": [
-            "jewelry_store",
+            "travel_agency",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    {
+        "name": "Casa Ford",
+        "address": "5815 Montana Avenue, El Paso",
+        "location": {
+            "lat": 31.784643,
+            "lng": -106.418256
+        },
+        "types": [
+            "car_dealer",
+            "point_of_interest",
+            "store",
+            "establishment"
+        ]
+    },
+    {
+        "name": "Poe Toyota",
+        "address": "6330 Montana Avenue, El Paso",
+        "location": {
+            "lat": 31.7882456,
+            "lng": -106.4055168
+        },
+        "types": [
+            "car_dealer",
+            "car_repair",
+            "point_of_interest",
+            "store",
+            "establishment"
+        ]
+    },
+    {
+        "name": "Casa Nissan",
+        "address": "5855 Montana Avenue, El Paso",
+        "location": {
+            "lat": 31.7845134,
+            "lng": -106.417427
+        },
+        "types": [
+            "car_rental",
             "finance",
+            "car_dealer",
+            "point_of_interest",
             "store",
-            "point_of_interest",
             "establishment"
         ]
     },
     {
-        "id": "Rack Room Shoes|{'lat': 31.7831908, 'lng': -106.4130581}",
-        "name": "Rack Room Shoes",
-        "address": "6101 Gateway Boulevard West #440, El Paso",
+        "name": "Hoy Volkswagen El Paso",
+        "address": "7230 Viscount Boulevard, El Paso",
         "location": {
-            "lat": 31.7831908,
-            "lng": -106.4130581
+            "lat": 31.7809182,
+            "lng": -106.3889238
         },
         "types": [
-            "shoe_store",
+            "car_dealer",
+            "car_repair",
+            "point_of_interest",
             "store",
-            "point_of_interest",
             "establishment"
         ]
     },
     {
-        "id": "Abercrombie Kids|{'lat': 31.7753257, 'lng': -106.3791262}",
-        "name": "Abercrombie Kids",
-        "address": "8401 Gateway Boulevard West, El Paso",
+        "name": "Bravo Cadillac El Paso",
+        "address": "6555 Montana Avenue, El Paso",
         "location": {
-            "lat": 31.7753257,
-            "lng": -106.3791262
+            "lat": 31.7896492,
+            "lng": -106.400628
         },
         "types": [
-            "shoe_store",
-            "clothing_store",
+            "finance",
+            "car_dealer",
+            "car_repair",
+            "point_of_interest",
             "store",
-            "point_of_interest",
             "establishment"
         ]
     },
     {
-        "id": "ALDO|{'lat': 31.7753257, 'lng': -106.3791262}",
-        "name": "ALDO",
-        "address": "D05A, 8401 Gateway Boulevard West, El Paso",
+        "name": "Dick Poe Dodge Ram",
+        "address": "1363 Airway Boulevard, El Paso",
         "location": {
-            "lat": 31.7753257,
-            "lng": -106.3791262
+            "lat": 31.7863113,
+            "lng": -106.3962414
         },
         "types": [
-            "shoe_store",
+            "car_dealer",
+            "car_repair",
+            "point_of_interest",
             "store",
-            "point_of_interest",
             "establishment"
         ]
     },
     {
-        "id": "Champs Sports|{'lat': 31.7745159, 'lng': -106.3784958}",
-        "name": "Champs Sports",
-        "address": "8401 Gateway Boulevard West, El Paso",
+        "name": "Viva Chevrolet",
+        "address": "5915 Montana Avenue, El Paso",
         "location": {
-            "lat": 31.7745159,
-            "lng": -106.3784958
+            "lat": 31.7855822,
+            "lng": -106.4159245
         },
         "types": [
-            "shoe_store",
-            "clothing_store",
+            "finance",
+            "car_dealer",
+            "car_repair",
+            "point_of_interest",
             "store",
-            "point_of_interest",
-            "establishment"
-        ]
-    },
-    {
-        "id": "GUESS|{'lat': 31.774746, 'lng': -106.3788594}",
-        "name": "GUESS",
-        "address": "8401 Gateway Boulevard West Suite B06A, El Paso",
-        "location": {
-            "lat": 31.774746,
-            "lng": -106.3788594
-        },
-        "types": [
-            "clothing_store",
-            "shoe_store",
-            "store",
-            "point_of_interest",
-            "establishment"
-        ]
-    },
-    {
-        "id": "Mister Car Wash|{'lat': 31.7721943, 'lng': -106.3774533}",
-        "name": "Mister Car Wash",
-        "address": "8857 Gateway Boulevard West, El Paso",
-        "location": {
-            "lat": 31.7721943,
-            "lng": -106.3774533
-        },
-        "types": [
-            "car_wash",
-            "point_of_interest",
-            "establishment"
-        ]
-    },
-    {
-        "id": "Mister Car Wash|{'lat': 31.7890135, 'lng': -106.405445}",
-        "name": "Mister Car Wash",
-        "address": "6365 Montana Avenue, El Paso",
-        "location": {
-            "lat": 31.7890135,
-            "lng": -106.405445
-        },
-        "types": [
-            "car_wash",
-            "point_of_interest",
-            "establishment"
-        ]
-    },
-    {
-        "id": "Splash N' Dash Car Wash|{'lat': 31.77256949999999, 'lng': -106.3393851}",
-        "name": "Splash N' Dash Car Wash",
-        "address": "2100 North Yarbrough Drive, El Paso",
-        "location": {
-            "lat": 31.77256949999999,
-            "lng": -106.3393851
-        },
-        "types": [
-            "car_wash",
-            "point_of_interest",
-            "establishment"
-        ]
-    },
-    {
-        "id": "El Paso PREMIERE LUX CINE 17 IMAX|{'lat': 31.7836697, 'lng': -106.4128875}",
-        "name": "El Paso PREMIERE LUX CINE 17 IMAX",
-        "address": "6101 Gateway Boulevard West Suite 15, El Paso",
-        "location": {
-            "lat": 31.7836697,
-            "lng": -106.4128875
-        },
-        "types": [
-            "movie_theater",
-            "point_of_interest",
-            "establishment"
-        ]
-    },
-    {
-        "id": "Cinemark Cielo Vista Mall 14 and XD|{'lat': 31.7784341, 'lng': -106.3828163}",
-        "name": "Cinemark Cielo Vista Mall 14 and XD",
-        "address": "8401C Gateway Boulevard West, El Paso",
-        "location": {
-            "lat": 31.7784341,
-            "lng": -106.3828163
-        },
-        "types": [
-            "movie_theater",
-            "meal_takeaway",
-            "restaurant",
-            "point_of_interest",
-            "food",
-            "establishment"
-        ]
-    },
-    {
-        "id": "Superior|{'lat': 31.7848616, 'lng': -106.3567158}",
-        "name": "Superior",
-        "address": "3029 McRae Boulevard, El Paso",
-        "location": {
-            "lat": 31.7848616,
-            "lng": -106.3567158
-        },
-        "types": [
-            "hospital",
-            "movie_theater",
-            "health",
-            "point_of_interest",
-            "establishment"
-        ]
-    },
-    {
-        "id": "Premiere Cinemas 18|{'lat': 31.7836654, 'lng': -106.4128838}",
-        "name": "Premiere Cinemas 18",
-        "address": "United States",
-        "location": {
-            "lat": 31.7836654,
-            "lng": -106.4128838
-        },
-        "types": [
-            "movie_theater",
-            "point_of_interest",
             "establishment"
         ]
     }

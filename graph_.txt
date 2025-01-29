@@ -1,0 +1,10 @@
+Source,Destination,Weight
+Buffalo Wild Wings,Cielo Vista,8
+Cielo Vista,Bravo Cadillac El Paso,2
+Bravo Cadillac El Paso,Sunglass Hut,1
+Sunglass Hut,Casa Ford,1
+Casa Ford,Olive Garden Italian Restaurant,9
+Olive Garden Italian Restaurant,Sol Hair Illusions,5
+Sol Hair Illusions,A la Carte Tours,9
+A la Carte Tours,Poe Toyota,2
+Poe Toyota,Casa Nissan,1

@@ -1,160 +1,147 @@
 [
     {
-        "id": "Rack Room Shoes|{'lat': 31.7831908, 'lng': -106.4130581}",
-        "name": "Rack Room Shoes",
-        "address": "6101 Gateway Boulevard West #440, El Paso",
+        "name": "Buffalo Wild Wings",
+        "address": "10497 Gateway Boulevard West, El Paso",
         "location": {
-            "lat": 31.7831908,
-            "lng": -106.4130581
+            "lat": 31.7547607,
+            "lng": -106.3475634
         },
         "types": [
-            "shoe_store",
-            "store",
-            "point_of_interest",
-            "establishment"
-        ]
-    },
-    {
-        "id": "Mister Car Wash|{'lat': 31.7721943, 'lng': -106.3774533}",
-        "name": "Mister Car Wash",
-        "address": "8857 Gateway Boulevard West, El Paso",
-        "location": {
-            "lat": 31.7721943,
-            "lng": -106.3774533
-        },
-        "types": [
-            "car_wash",
-            "point_of_interest",
-            "establishment"
-        ]
-    },
-    {
-        "id": "Andale Mexican Restaurant and Cantina|{'lat': 31.7658402, 'lng': -106.3651468}",
-        "name": "Andale Mexican Restaurant and Cantina",
-        "address": "9201 Gateway Boulevard West, El Paso",
-        "location": {
-            "lat": 31.7658402,
-            "lng": -106.3651468
-        },
-        "types": [
-            "night_club",
             "bar",
-            "restaurant",
-            "food",
-            "point_of_interest",
-            "establishment"
-        ]
-    },
-    {
-        "id": "El Paso PREMIERE LUX CINE 17 IMAX|{'lat': 31.7836697, 'lng': -106.4128875}",
-        "name": "El Paso PREMIERE LUX CINE 17 IMAX",
-        "address": "6101 Gateway Boulevard West Suite 15, El Paso",
-        "location": {
-            "lat": 31.7836697,
-            "lng": -106.4128875
-        },
-        "types": [
-            "movie_theater",
-            "point_of_interest",
-            "establishment"
-        ]
-    },
-    {
-        "id": "Champs Sports|{'lat': 31.7745159, 'lng': -106.3784958}",
-        "name": "Champs Sports",
-        "address": "8401 Gateway Boulevard West, El Paso",
-        "location": {
-            "lat": 31.7745159,
-            "lng": -106.3784958
-        },
-        "types": [
-            "shoe_store",
-            "clothing_store",
-            "store",
-            "point_of_interest",
-            "establishment"
-        ]
-    },
-    {
-        "id": "Premiere Cinemas 18|{'lat': 31.7836654, 'lng': -106.4128838}",
-        "name": "Premiere Cinemas 18",
-        "address": "United States",
-        "location": {
-            "lat": 31.7836654,
-            "lng": -106.4128838
-        },
-        "types": [
-            "movie_theater",
-            "point_of_interest",
-            "establishment"
-        ]
-    },
-    {
-        "id": "GUESS|{'lat': 31.774746, 'lng': -106.3788594}",
-        "name": "GUESS",
-        "address": "8401 Gateway Boulevard West Suite B06A, El Paso",
-        "location": {
-            "lat": 31.774746,
-            "lng": -106.3788594
-        },
-        "types": [
-            "clothing_store",
-            "shoe_store",
-            "store",
-            "point_of_interest",
-            "establishment"
-        ]
-    },
-    {
-        "id": "Spencer's|{'lat': 31.7753257, 'lng': -106.3791262}",
-        "name": "Spencer's",
-        "address": "8401 Gateway Boulevard West, El Paso",
-        "location": {
-            "lat": 31.7753257,
-            "lng": -106.3791262
-        },
-        "types": [
-            "jewelry_store",
-            "clothing_store",
-            "store",
-            "point_of_interest",
-            "establishment"
-        ]
-    },
-    {
-        "id": "Target|{'lat': 31.7830244, 'lng': -106.4141009}",
-        "name": "Target",
-        "address": "6001 Gateway Boulevard West, El Paso",
-        "location": {
-            "lat": 31.7830244,
-            "lng": -106.4141009
-        },
-        "types": [
-            "department_store",
-            "shoe_store",
-            "electronics_store",
-            "clothing_store",
-            "furniture_store",
-            "home_goods_store",
-            "point_of_interest",
-            "store",
-            "establishment"
-        ]
-    },
-    {
-        "id": "Cinemark Cielo Vista Mall 14 and XD|{'lat': 31.7784341, 'lng': -106.3828163}",
-        "name": "Cinemark Cielo Vista Mall 14 and XD",
-        "address": "8401C Gateway Boulevard West, El Paso",
-        "location": {
-            "lat": 31.7784341,
-            "lng": -106.3828163
-        },
-        "types": [
-            "movie_theater",
             "meal_takeaway",
             "restaurant",
-            "point_of_interest",
             "food",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    {
+        "name": "Cielo Vista",
+        "address": "8401 Gateway Boulevard West, El Paso",
+        "location": {
+            "lat": 31.7750435,
+            "lng": -106.37921
+        },
+        "types": [
+            "shopping_mall",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    {
+        "name": "Bravo Cadillac El Paso",
+        "address": "6555 Montana Avenue, El Paso",
+        "location": {
+            "lat": 31.7896492,
+            "lng": -106.400628
+        },
+        "types": [
+            "finance",
+            "car_dealer",
+            "car_repair",
+            "point_of_interest",
+            "store",
+            "establishment"
+        ]
+    },
+    {
+        "name": "Sunglass Hut",
+        "address": "8401 Gateway Boulevard West K102, El Paso",
+        "location": {
+            "lat": 31.7746724,
+            "lng": -106.3787967
+        },
+        "types": [
+            "shopping_mall",
+            "point_of_interest",
+            "store",
+            "establishment"
+        ]
+    },
+    {
+        "name": "Casa Ford",
+        "address": "5815 Montana Avenue, El Paso",
+        "location": {
+            "lat": 31.784643,
+            "lng": -106.418256
+        },
+        "types": [
+            "car_dealer",
+            "point_of_interest",
+            "store",
+            "establishment"
+        ]
+    },
+    {
+        "name": "Olive Garden Italian Restaurant",
+        "address": "8401 Gateway Boulevard West, El Paso",
+        "location": {
+            "lat": 31.7736237,
+            "lng": -106.3791777
+        },
+        "types": [
+            "bar",
+            "meal_takeaway",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    {
+        "name": "Sol Hair Illusions",
+        "address": "10501 Gateway Boulevard West # 103, El Paso",
+        "location": {
+            "lat": 31.756424,
+            "lng": -106.343065
+        },
+        "types": [
+            "hair_care",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    {
+        "name": "A la Carte Tours",
+        "address": "3100 North Yarbrough Drive Unit 371094, El Paso",
+        "location": {
+            "lat": 31.7846407,
+            "lng": -106.3352499
+        },
+        "types": [
+            "travel_agency",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    {
+        "name": "Poe Toyota",
+        "address": "6330 Montana Avenue, El Paso",
+        "location": {
+            "lat": 31.7882456,
+            "lng": -106.4055168
+        },
+        "types": [
+            "car_dealer",
+            "car_repair",
+            "point_of_interest",
+            "store",
+            "establishment"
+        ]
+    },
+    {
+        "name": "Casa Nissan",
+        "address": "5855 Montana Avenue, El Paso",
+        "location": {
+            "lat": 31.7845134,
+            "lng": -106.417427
+        },
+        "types": [
+            "car_rental",
+            "finance",
+            "car_dealer",
+            "point_of_interest",
+            "store",
             "establishment"
         ]
     }

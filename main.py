@@ -1,9 +1,10 @@
-from locationsearch import generate_random_places
+#from locationsearch import generate_random_places
 from flask import Flask, render_template, request
 from graph import generate_folium_map
 from chatgpt import get_random_places, get_response
 from dotenv import load_dotenv
 from openai import OpenAI
+from lst import generate_random_places
 
 import json
 
@@ -36,7 +37,7 @@ def index():
         with open(file_name, "w") as file:
             json.dump(locations, file, indent=4)
 
-        map_html = generate_folium_map(locations)
+        map_html = generate_folium_map(locations, user_zip)
 
         response = get_response("", "", user_criterion, locations, user_city)
         print(f'\n\n{response}\n\n')
